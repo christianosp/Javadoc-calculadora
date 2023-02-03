@@ -18,7 +18,7 @@ public class Operaciones{
         return numero;
     }
     
-    public int dividir (int valor1, int valor2){
+    public int dividir (int valor1, int valor2) throws ArithmeticException {
         int numero;
         numero = valor1 / valor2;
         return numero;

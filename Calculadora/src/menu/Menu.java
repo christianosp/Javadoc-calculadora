@@ -47,15 +47,5 @@ public class Menu {
         }
         return ret;
     }
-    public double divide(double valor1, double valor2) {
-        try {
-            if (valor2 == 0) {
-                throw new ArithmeticException("No se permite la división entre cero");
-            }
-            return valor1 / valor2;
-        } catch (ArithmeticException e) {
-            System.out.println(e.getMessage());
-            return 0;
-        }
+   
     }
-}
